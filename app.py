@@ -11,7 +11,7 @@ acoes = {
     "Banco PAN": "BRSR6", "Modal": "MODL3"
     }
 
-st.title("Tickers das Ações")
+st.title("Tickers dos símbolos")
 acoes_option = st.sidebar.selectbox(
     "Que banco quer visualizar?", tuple(acoes)
 )
